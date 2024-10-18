@@ -20,7 +20,6 @@ The web page allows users to register for exams by filling in their details in a
 - **success.html**: The page shown after a successful registration.
 - **exams.css**: The main CSS file responsible for styling the registration form and success page.
 - **exam.png**: Banner logo used in the header section.
-- **exam_registration_final.pdf**: Merged PDF file containing the HTML, CSS, and a screenshot of the project.
 
 ## How to Run
 
