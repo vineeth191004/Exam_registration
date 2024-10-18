@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Registration</title>
+    <link rel="stylesheet" href="exams.css">
+</head>
+<body>
+
+    <!-- Header Section with Banner as Logo -->
+    <header>
+        <img src="exam-banner.jpg" alt="Exam Logo" class="logo">
+        <h1>Exam Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Exams</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <h2>Register for Your Exam Today!</h2>
+            <p>Please fill out the form below to register for the upcoming exams.</p>
+        </section>
+
+        <!-- Registration Form -->
+        <section class="form-section">
+            <form action="success.html" method="POST">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="exam-select">Select Exam:</label>
+                <select id="exam-select" name="exam" required>
+                    <option value="">-- Select Exam --</option>
+                    <option value="maths">Maths Exam</option>
+                    <option value="science">Science Exam</option>
+                    <option value="english">English Exam</option>
+                </select>
+
+                <label for="date">Exam Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Register Now</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact Us: exam@registration.com | +91 9144567893</p>
+    </footer>
+
+</body>
+</html>
