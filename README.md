@@ -24,4 +24,4 @@ The web page allows users to register for exams by filling in their details in a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/exam-registration.git
+   git clone https://github.com/vineeth191004/Exam_registration.git
